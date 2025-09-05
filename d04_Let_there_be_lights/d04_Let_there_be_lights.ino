@@ -26,6 +26,7 @@ void setup() {
 void loop() {
 
   //Direct biding of Input DR to Output DW
+  //Bypasses verbose If...Then processing  
 
   digitalWrite(CABIN_LIGHTS_PIN, digitalRead(CABIN_LIGHT_SWITCH_PIN));
   digitalWrite(STORAGE_LIGHTS_PIN, digitalRead(STORAGE_LIGHT_SWITCH_PIN));
